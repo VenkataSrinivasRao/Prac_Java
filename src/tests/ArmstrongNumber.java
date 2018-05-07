@@ -6,7 +6,9 @@ public class ArmstrongNumber {
 
 	
 	public static void main(String[] args) {
+		//Take the input from User
 		
+		  
 		Scanner s = new Scanner(System.in);
 		System.out.println("Pls enter Number");;
 		int temp = s.nextInt();
