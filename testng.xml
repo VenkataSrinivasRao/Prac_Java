@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+    <test name="Regression suite 1" >
+       <!--  <groups>
+        <run>
+            <include name="one"/>
+        </run>
+    </groups> -->
+        <classes>
+            <!-- <class name="tests.TestNGTest"/> -->
+            <class name="tests.TG_ITestLisener_Test"/>
+        </classes>
+    </test>
+</suite>
