@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="example suite 1" verbose="1" >
-    <test name="Regression suite 1" >
-       <!--  <groups>
-        <run>
-            <include name="one"/>
-        </run>
-    </groups> -->
-        <classes>
-            <!-- <class name="tests.TestNGTest"/> -->
-            <class name="tests.TG_ITestLisener_Test"/>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="tests.TG_ITestLisener_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

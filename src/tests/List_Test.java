@@ -1,6 +1,7 @@
 package tests;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.ListIterator;
@@ -72,8 +73,13 @@ public class List_Test {
 			System.out.print(integer+ "  ");
 		}
 		System.out.println();
+		Collections.sort(al);
+		System.out.println(al.toString());
+		Collections.reverse(al);
+		System.out.println("Reverser order :"+al.toString());
 		
-		
+		System.out.println("Max Element   :"+Collections.max(al));
+		System.out.println("Min Element   :"+Collections.min(al));
 	}
 	
 	
